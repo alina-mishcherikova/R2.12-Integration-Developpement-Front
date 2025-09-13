@@ -1,0 +1,22 @@
+.size {
+  width: 70%;
+}
+
+.marges {
+  margin: 5px;
+}
+
+.frame {
+  border-width: 1px;
+  border-style: solid;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:70%;
+
+}
+
+.subtitle {
+  font-size: smaller;
+}

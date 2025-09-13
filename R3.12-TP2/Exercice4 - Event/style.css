@@ -1,0 +1,89 @@
+.page {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  font-family: 'Live Savers', cursive;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+img {
+  margin: auto;
+  display: block;
+  height: 3em; 
+}
+
+h4 {
+  font-family: 'Live Savers', cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 60px 0 0;
+}
+
+
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+
+.menu-section {
+  margin-bottom: 0px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 10px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+
+.menu-item {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Open Sans";
+  padding:10px;
+  border-radius: 20px;
+}
+
+
+.menu-item:active div.menu-item-price {
+  font-size: 20px;
+}
+
+.selected {
+  background: wheat;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.menu-item-name{
+  font-family: 'Life Savers', cursive;
+  color: rgb(64, 30, 30);
+  font-size: 1.2em;
+  margin-bottom: 0.4em;
+  pointer-events: none;
+}
+
+.menu-item-description {
+  font-weight: normal;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 95%;
+  pointer-events: none;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -30px;
+  pointer-events: none;
+}

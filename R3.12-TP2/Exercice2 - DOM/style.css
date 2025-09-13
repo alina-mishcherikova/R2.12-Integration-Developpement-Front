@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ * {
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'Roboto', sans-serif;
+	 box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	 max-width: 100%;
+}
+
+html, body {
+	 height: 100%;
+}
+
+.card {
+	position: relative;
+	background: #fff;
+	max-width: 31rem;
+	margin: 1.2em auto;
+	box-shadow: 0px 0px 10px 1px #999;
+}
+.card__header {
+	 background-size: cover;
+	 min-height: 28rem;
+}
+
+.card__food {
+	 color: #212129;
+	 font-weight: normal;
+	 text-transform: uppercase;
+	 letter-spacing: 0.1;
+	 margin: .3em 1.8em;
+}
+
+.card__clock-o {
+	 color: #9b9b9b;
+	 margin: 0 30px;
+}
+.card__users {
+	 color: #9b9b9b;
+}
+
+.card__info {
+	 margin: .6em 1.8em;
+}
+ .card__btn {
+	 display: block;
+	 background: #ef3e36;
+	 color: #fff;
+	 position: relative;
+	 text-transform: uppercase;
+	 letter-spacing: 0.1em;
+	 text-align: center;
+	 padding: .6em;
+	 transition: 250ms;
+}
+ .card__btn:hover {
+	 background: #17bebb;
+	 transition: 250ms;
+}
+
+.card__info li {
+    list-style-type: circle;
+    margin: .2em 1.25em;
+}
+ 
+
+.card__item__quantity {
+	color: rgb(153, 153, 153);
+	font-style: italic;
+	margin-left: 8px;
+}
